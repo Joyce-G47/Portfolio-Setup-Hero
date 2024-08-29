@@ -1,0 +1,99 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* hero */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background: #F9F7FE;
+}
+
+/* header */
+.header {
+    position: absolute;
+    width: 100%;
+    max-width: 1136px;
+    height: 41.82px;
+    left: 165px;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+.logo {
+    width: 150px;
+    height: 41.82px;
+    background: url('path_to_image') no-repeat;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #6C63FF;
+}
+
+/* caption */
+.caption {
+    position: absolute;
+    width: 693px;
+    text-align: center;
+    left: 50%;
+    top: 276px;
+    transform: translateX(-50%);
+}
+
+.caption h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #272142;
+}
+
+.caption h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #000000;
+    margin: 0;
+}
+
+.caption p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #272142;
+}
+
+/* button */
+.button-container {
+    position: absolute;
+    left: 50%;
+    top: 566px;
+    transform: translateX(-50%);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 30px;
+    background-color: #6C63FF;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+}
